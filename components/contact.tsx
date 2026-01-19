@@ -8,19 +8,19 @@ const contactInfo = [
   {
     icon: Phone,
     label: "Teléfono",
-    value: "+53 5312 3456",
-    href: "tel:+5353123456",
+    value: "+57 3043471267",
+    href: "tel:+573043471267",
   },
   {
     icon: Mail,
     label: "Correo electrónico",
     value: "aicardo.varona@email.com",
-    href: "mailto:aicardo.varona@email.com",
+    href: "negrovape@hotmail.com",
   },
   {
     icon: MapPin,
     label: "Ubicación",
-    value: "La Habana, Cuba",
+    value: "Colombia, Barranquilla",
     href: null,
   },
 ];
