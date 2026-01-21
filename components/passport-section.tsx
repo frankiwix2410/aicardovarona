@@ -30,7 +30,7 @@ const features = [
 ];
 
 export function PassportSection() {
-  const whatsappLink = "https://wa.me/+5353123456?text=Hola,%20me%20interesa%20el%20trámite%20de%20pasaporte";
+  const whatsappLink = "https://wa.me/573043471267?text=Hola,%20me%20interesa%20el%20trámite%20de%20pasaporte";
 
   return (
     <section id="pasaportes" className="py-24 px-4 bg-card">
@@ -88,7 +88,7 @@ export function PassportSection() {
           {/* Image */}
           <div className="relative h-[400px] lg:h-[500px] rounded-2xl overflow-hidden shadow-2xl order-1 lg:order-2">
             <Image
-              src="/images/passport-service.jpg"
+              src="/images/two-us-passports-held-hand.jpg"
               alt="Trámite de pasaportes profesional"
               fill
               className="object-cover"
