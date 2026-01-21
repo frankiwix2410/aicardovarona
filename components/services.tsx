@@ -39,7 +39,7 @@ const services = [
 ];
 
 export function Services() {
-  const whatsappLink = "https://wa.me/573043471267";
+  const whatsappLink = "https://wa.me/+573043471267?text=Hola,%20me%20gustaría%20obtener%20más%20información";
 
   return (
     <section id="servicios" className="py-24 px-4 bg-background">
