@@ -8,25 +8,25 @@ const contactInfo = [
   {
     icon: Phone,
     label: "Teléfono",
-    value: "+57 304 3471267",
-    href: "tel:+57 304 3471267",
+    value: "+57 3043471267",
+    href: "tel:+573043471267",
   },
   {
     icon: Mail,
     label: "Correo electrónico",
-    value: "negrovape@hotmail.com",
-    href: "mailto:negrovape@hotmail.com",
+    value: "aicardo.varona@email.com",
+    href: "negrovape@hotmail.com",
   },
   {
     icon: MapPin,
     label: "Ubicación",
-    value: "Barranquilla, Colombia",
+    value: "Colombia, Barranquilla",
     href: null,
   },
 ];
 
 export function Contact() {
-  const whatsappLink = "https://wa.me/+573043471267?text=Hola,%20me%20gustaría%20obtener%20más%20información";
+  const whatsappLink = "https://wa.me/573043471267?text=Hola,%20me%20gustaría%20obtener%20más%20información";
 
   return (
     <section id="contacto" className="py-24 px-4 bg-secondary">

@@ -88,7 +88,7 @@ export function PassportSection() {
           {/* Image */}
           <div className="relative h-[400px] lg:h-[500px] rounded-2xl overflow-hidden shadow-2xl order-1 lg:order-2">
             <Image
-              src="/images/two-us-passports-held-hand.jpg"
+              src="/images/passport-service.jpg"
               alt="Trámite de pasaportes profesional"
               fill
               className="object-cover"

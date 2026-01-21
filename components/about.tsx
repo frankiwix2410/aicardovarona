@@ -1,11 +1,10 @@
 "use client";
 
-import Image from "next/image";
 import { Award, Users, Clock, Heart } from "lucide-react";
 
 const stats = [
-  { icon: Users, value: "10k+", label: "Clientes satisfechos" },
-  { icon: Award, value: "30+", label: "Años de experiencia" },
+  { icon: Users, value: "500+", label: "Clientes satisfechos" },
+  { icon: Award, value: "10+", label: "Años de experiencia" },
   { icon: Clock, value: "24/7", label: "Atención disponible" },
   { icon: Heart, value: "100%", label: "Compromiso" },
 ];
@@ -15,17 +14,16 @@ export function About() {
     <section id="sobre-mi" className="py-24 px-4 bg-background">
       <div className="max-w-7xl mx-auto">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
-          {/* Profile Image */}
+          {/* Profile Image Placeholder */}
           <div className="relative">
-            <div className="max-w-md mx-auto rounded-2xl overflow-hidden shadow-2xl">
-              <Image
-                src="/images/Aicardo.png"
-                alt="Aicardo Varona Perez - Asesor & Agente de Turismo"
-                width={500}
-                height={600}
-                className="w-full h-full object-cover"
-                priority
-              />
+            <div className="aspect-square max-w-md mx-auto rounded-2xl overflow-hidden shadow-2xl bg-gradient-to-br from-primary/20 to-accent/20 flex items-center justify-center">
+              <div className="text-center p-8">
+                <div className="w-32 h-32 mx-auto mb-6 rounded-full bg-primary/10 flex items-center justify-center">
+                  <span className="text-5xl font-bold text-primary">AV</span>
+                </div>
+                <h3 className="text-2xl font-bold text-foreground mb-2">Aicardo Varona Perez</h3>
+                <p className="text-muted-foreground">Asesor & Agente de Turismo</p>
+              </div>
             </div>
             {/* Decorative elements */}
             <div className="absolute -top-4 -right-4 w-24 h-24 bg-primary/10 rounded-full blur-2xl" />

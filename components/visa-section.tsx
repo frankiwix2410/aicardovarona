@@ -12,7 +12,7 @@ const benefits = [
 ];
 
 export function VisaSection() {
-  const whatsappLink = "https://wa.me/+5353123456?text=Hola,%20me%20interesa%20la%20asesoría%20de%20visa";
+  const whatsappLink = "https://wa.me/573043471267?text=Hola,%20me%20interesa%20la%20asesoría%20de%20visa";
 
   return (
     <section id="visa" className="py-24 px-4 bg-secondary">

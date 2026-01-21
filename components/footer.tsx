@@ -39,7 +39,7 @@ export function Footer() {
             <h4 className="font-semibold mb-4">Contacto</h4>
             <div className="space-y-3">
               <a
-                href="https://wa.me/+5353123456"
+                href="https://wa.me/573043471267"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 text-primary-foreground/70 hover:text-primary-foreground text-sm transition-colors"
@@ -48,11 +48,11 @@ export function Footer() {
                 WhatsApp
               </a>
               <a
-                href="tel:+5353123456"
+                href="tel:+573043471267"
                 className="flex items-center gap-2 text-primary-foreground/70 hover:text-primary-foreground text-sm transition-colors"
               >
                 <Phone className="h-4 w-4" />
-                +53 5312 3456
+                +57 304 347 1267
               </a>
               <a
                 href="mailto:aicardo.varona@email.com"
