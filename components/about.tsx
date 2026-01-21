@@ -19,7 +19,7 @@ export function About() {
           <div className="relative">
             <div className="max-w-md mx-auto rounded-2xl overflow-hidden shadow-2xl">
               <Image
-                src="/images/Aicardo.png"
+                src="Aicardo.png"
                 alt="Aicardo Varona Perez - Asesor & Agente de Turismo"
                 width={500}
                 height={600}
