@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 import { MessageCircle } from "lucide-react";
 
 export function Hero() {
-  const whatsappLink = "https://wa.me/573043471267";
+  const whatsappLink = "https://wa.me/+573043471267?text=Hola,%20me%20gustaría%20obtener%20más%20información";
 
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
