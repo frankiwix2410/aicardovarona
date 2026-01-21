@@ -16,14 +16,15 @@ export function About() {
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* Profile Image Placeholder */}
           <div className="relative">
-            <div className="aspect-square max-w-md mx-auto rounded-2xl overflow-hidden shadow-2xl bg-gradient-to-br from-primary/20 to-accent/20 flex items-center justify-center">
-              <div className="text-center p-8">
-                <div className="w-32 h-32 mx-auto mb-6 rounded-full bg-primary/10 flex items-center justify-center">
-                  <span className="text-5xl font-bold text-primary">AV</span>
-                </div>
-                <h3 className="text-2xl font-bold text-foreground mb-2">Aicardo Varona Perez</h3>
-                <p className="text-muted-foreground">Asesor & Agente de Turismo</p>
-              </div>
+            <div className="max-w-md mx-auto rounded-2xl overflow-hidden shadow-2xl">
+              <Image
+                src="/images/Aicardo.png"
+                alt="Aicardo Varona Perez - Asesor & Agente de Turismo"
+                width={500}
+                height={600}
+                className="w-full h-full object-cover"
+                priority
+              />
             </div>
             {/* Decorative elements */}
             <div className="absolute -top-4 -right-4 w-24 h-24 bg-primary/10 rounded-full blur-2xl" />
