@@ -3,8 +3,8 @@
 import { Award, Users, Clock, Heart } from "lucide-react";
 
 const stats = [
-  { icon: Users, value: "500+", label: "Clientes satisfechos" },
-  { icon: Award, value: "10+", label: "Años de experiencia" },
+  { icon: Users, value: "10k+", label: "Clientes satisfechos" },
+  { icon: Award, value: "30+", label: "Años de experiencia" },
   { icon: Clock, value: "24/7", label: "Atención disponible" },
   { icon: Heart, value: "100%", label: "Compromiso" },
 ];
