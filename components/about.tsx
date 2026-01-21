@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { Award, Users, Clock, Heart } from "lucide-react";
 
 const stats = [

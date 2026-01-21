@@ -30,7 +30,7 @@ const features = [
 ];
 
 export function PassportSection() {
-  const whatsappLink = "https://wa.me/+573043471267?text=Hola,%20me%20gustaría%20obtener%20más%20información";
+  const whatsappLink = "https://wa.me/573043471267?text=Hola,%20me%20interesa%20el%20trámite%20de%20pasaporte";
 
   return (
     <section id="pasaportes" className="py-24 px-4 bg-card">

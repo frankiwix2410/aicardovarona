@@ -25,7 +25,7 @@ export function Navbar() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  const whatsappLink = "https://wa.me/+573043471267?text=Hola,%20me%20gustaría%20obtener%20más%20información";
+  const whatsappLink = "https://wa.me/573043471267?text=Hola,%20me%20gustaría%20obtener%20más%20información";
 
   return (
     <nav
